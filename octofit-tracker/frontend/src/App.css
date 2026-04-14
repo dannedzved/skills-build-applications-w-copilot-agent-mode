@@ -1,0 +1,136 @@
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  color: #f3f3f3;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 48px;
+  width: auto;
+  pointer-events: none;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #232526;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #f3f3f3;
+}
+
+
+.App-link, a, .navbar-brand, .nav-link {
+  color: #ffb347 !important;
+  transition: color 0.2s;
+}
+
+.App-link:hover, a:hover, .navbar-brand:hover, .nav-link:hover {
+  color: #ff7f50 !important;
+  text-decoration: underline;
+}
+
+nav.navbar {
+  background: linear-gradient(90deg, #232526 0%, #ffb347 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  margin-right: 1rem;
+}
+
+button, .btn, .navbar-toggler {
+  background: linear-gradient(90deg, #ffb347 0%, #ff7f50 100%);
+  color: #232526 !important;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5em 1.2em;
+  font-weight: 600;
+  transition: background 0.2s, color 0.2s;
+}
+
+button:hover, .btn:hover, .navbar-toggler:hover {
+  background: linear-gradient(90deg, #ff7f50 0%, #ffb347 100%);
+  color: #fff !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffb347;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  background: #2c2f34;
+  color: #f3f3f3;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+th, td {
+  padding: 0.75em 1em;
+  border-bottom: 1px solid #414345;
+}
+
+th {
+  background: #ffb347;
+  color: #232526;
+  font-weight: 700;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+.card {
+  background: #232526;
+  color: #f3f3f3;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.card-title span {
+  color: #ffb347;
+}
+
+.App-logo-left {
+  display: flex;
+  align-items: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
